@@ -18,4 +18,9 @@ Record network traffic with __tshark__ and save it as `.pcap`
 $ tshark -i INTERFACE -w OUTPUT.pcap -F pcap
 ```
 
-### ubuntu
+### apt
+Avoid marking already installed packages as manually installed
+```bash
+$ sudo apt install --mark-auto <package-name-1> <package-name-2> ... <package-name-n>
+```
+
