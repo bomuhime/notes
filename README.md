@@ -6,6 +6,13 @@
 
 # Short Commands
 
+### git
+Cleanup the local view of the remote and delete local branches that no longer have a remote
+```bash
+$ git fetch --prune
+$ git branch -vv | awk '/: gone]/{print $1}' | xargs -r git branch -D
+```
+
 ### Devcontainers
 Set correct permissions for __Devcontainers__ in VSCode if met with `Permission Denied`
 ```bash
