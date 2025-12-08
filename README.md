@@ -24,6 +24,11 @@ Record network traffic with __tshark__ and save it as `.pcap`
 ```bash
 $ tshark -i INTERFACE -w OUTPUT.pcap -F pcap
 ```
+### markdown
+Create a page break, for example before a heading, useful when generating PDFs
+```bash
+<div style="page-break-after: always;"></div>
+```
 
 ### apt
 Avoid marking already installed packages as manually installed
