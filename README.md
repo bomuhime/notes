@@ -2,6 +2,7 @@
 1. [fatsort](https://github.com/bomuhime/notes/blob/main/fatsort.md)
 2. [convert ova to qcow2](https://github.com/bomuhime/notes/blob/main/ova-to-qcow2.md)
 3. [lenovo bios update on linux](https://github.com/bomuhime/notes/blob/main/lenovo_bios_linux.md)
+4. [crlf lf shenanigans `flutter upgrade` ^^](https://github.com/bomuhime/notes/blob/main/crlf_lf_shenanigans.md)
 
 
 # Short Commands
